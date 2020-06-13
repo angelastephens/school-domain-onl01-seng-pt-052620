@@ -16,3 +16,6 @@ class School
  end 
   
 end
+School= school.new
+school.new=[]
+school.sort
