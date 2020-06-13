@@ -12,8 +12,6 @@ class School
      @roster[grade] << name
     else
       @roster[grade] = [name]
-      
-      @roster.index
     end
  end 
   
