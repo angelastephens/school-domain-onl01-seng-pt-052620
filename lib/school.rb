@@ -12,6 +12,7 @@ class School
      @roster[grade] << name
     else
       @roster[grade] = [name]
+      @roster.sort_by(grade.length)
     end
  end 
   
