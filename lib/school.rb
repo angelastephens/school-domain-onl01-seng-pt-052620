@@ -23,4 +23,4 @@ class School
   
 end
 
-@roster.sort_by[grade]
+self.grade.sort_by
