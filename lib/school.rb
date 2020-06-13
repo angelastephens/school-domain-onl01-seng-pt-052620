@@ -17,7 +17,8 @@ class School
  
   def grade(grade)
     @roster[grade]
-  endself.grade.sort_by
+    self.grade.sort_by
+  end
   
 
   
