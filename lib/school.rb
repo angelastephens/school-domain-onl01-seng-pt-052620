@@ -17,10 +17,13 @@ class School
  
   def grade(grade)
     @roster[grade]
-    self.grade.sort_by
   end
   
-
+ def roster
+   @roster=[grade]
+   self.roster.sort
+   
+  end
   
 end
 
