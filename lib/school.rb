@@ -14,8 +14,9 @@ class School
       @roster[grade] = [name]
     end
  end 
+ 
+  def grade(grade)
+    @roster[grade]
+  end
   
 end
-School= school.new
-school.new=[]
-school.sort
